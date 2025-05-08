@@ -43,6 +43,7 @@ def main():
     bankomat.eject_card()
     print(bankomat.get_message())
 
+# Om inte denna finns så kommer run [filnamn] bara rendera att klasser, instanser och metoder registreras men inte körs
 if __name__ == "__main__":
     main()
 
